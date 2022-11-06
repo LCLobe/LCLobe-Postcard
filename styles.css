@@ -1,0 +1,75 @@
+body {
+	background: black;
+}
+/* * {
+	border: 1px dashed red;
+	min-height: 10px;
+}*/
+p {
+	color: blue;
+	font-family: "Dancing Script", cursive;
+}
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+}
+.postcard-header {
+	display: flex;
+}
+.postcard-body {
+	display: flex;
+}
+.postcard-footer {
+}
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+}
+.postcard-header h1 {
+	width: 350px;
+	margin: 0;
+	font-family: "IM Fell English", serif;
+	margin-left: 20px;
+	margin-top: 5px;
+}
+.body-left p:first-child {
+	margin-top: 0;
+}
+.body-left,
+.body-right {
+	padding: 10px;
+}
+/*.body-left {
+	width: 240px;
+}*/
+input {
+	border: none;
+	border-bottom-color: gainsboro;
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+}
+.postcard-footer {
+	text-align: center;
+}
+button {
+	background-color: rgb(190, 190, 190);
+	padding: 5px;
+	border-width: 2px;
+	border-radius: 5px;
+	border-style: solid;
+	border-top-color: gainsboro;
+	border-left-color: gainsboro;
+	border-right-color: black;
+	border-bottom-color: black;
+}
+button:active {
+	border-top-color: black;
+	border-left-color: black;
+	border-right-color: gainsboro;
+	border-bottom-color: gainsboro;
+}
+button:hover {
+	text-decoration-line: underline;
+}
