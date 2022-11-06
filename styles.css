@@ -4,7 +4,8 @@ body {
 /* * {
 	border: 1px dashed red;
 	min-height: 10px;
-}*/
+}
+*/
 p {
 	color: blue;
 	font-family: "Dancing Script", cursive;
@@ -24,8 +25,10 @@ p {
 .postcard-footer {
 }
 .postcard-header img {
-	width: 50px;
-	height: 50px;
+	width: 70px;
+	height: 70px;
+	margin-right: 10px;
+	margin-top: 10px;
 }
 .postcard-header h1 {
 	width: 350px;
@@ -41,9 +44,9 @@ p {
 .body-right {
 	padding: 10px;
 }
-/*.body-left {
-	width: 240px;
-}*/
+.body-left {
+	margin-left: 5px;
+}
 input {
 	border: none;
 	border-bottom-color: gainsboro;
@@ -72,4 +75,8 @@ button:active {
 }
 button:hover {
 	text-decoration-line: underline;
+}
+input,
+button {
+	font-family: "IM Fell English", serif;
 }
